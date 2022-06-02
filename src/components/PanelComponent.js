@@ -10,11 +10,7 @@ const Panel = (props) => {
     <>
       <div className="panel-container">
         <img src={panelists} className="panel-image" />
-        <Card img={user} name={panelDetails[0].name} />
-        {data.map((currentElement) => {
-          const { id } = currentElement;
-          return <Card key={id} {...currentElement} />;
-        })}
+        <Card img={user} />
       </div>
     </>
   );
