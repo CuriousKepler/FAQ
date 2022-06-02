@@ -7,7 +7,7 @@ const Accordion = () => {
   const [data, setData] = useState(faq);
   return (
     <>
-      <section className="main">
+      <section>
         <img src={image} className="image" />
         {data.map((currentElement) => {
           const { id } = currentElement;
