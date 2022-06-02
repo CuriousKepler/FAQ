@@ -2,7 +2,7 @@
   "name": "faq",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://CuriousKepler.github.io/FAQ_Component",
+  "homepage": "https://CuriousKepler.github.io/FAQ-Component",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
